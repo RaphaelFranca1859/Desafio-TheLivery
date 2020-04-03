@@ -1,0 +1,206 @@
+/*Global*/
+body{
+    background: #fdf5f5;
+    color: black;
+
+    font-family: 'Montserrat', sans-serif;
+
+    margin: 0;
+}
+a{
+    color: black;
+    font-weight: bold;
+
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.button{
+    color:black;
+    background: red;
+
+    width: 150px;
+    height: 40px;
+
+    border-radius: 8px;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0px 8px 16px rgba(255, 0, 92, 0.16);
+}
+
+.button:hover{
+    background-color: rgb(46, 45, 45);
+    text-decoration: none;
+
+}
+
+
+/*Padrão*/
+#container{
+    width: 90%;
+    max-width: 980px;
+
+    margin: 40px auto;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#inicio #container{
+    display: block;
+}
+
+#inicio header{
+    display: flex;
+    justify-content: space-between;
+
+}
+#inicio nav{
+    display: flex;
+    align-items: center;
+}
+
+#inicio nav li{
+    list-style-type: none;
+
+    margin-right: 16px;
+}
+
+#inicio nav li a{
+    color: #25282b;
+}
+
+
+#intro{
+    display: flex;
+
+    justify-content: center;
+
+    margin-top: 128px;
+   
+
+}
+#intro h1{
+    display: flex;
+    max-width: 400px;
+    text-align: auto;
+    margin-top: 128px;
+
+}
+
+#intro img{
+    display: grid;
+
+    grid-column: 1fr 1fr;
+    width: 440px;
+    height: 440px;
+}
+
+
+#corpo{
+    display: flex;
+
+    
+    background-color: #fff;
+    box-shadow: 0 4px 16px -8px rgba(1, 1, 1, 0,1);
+    border-radius: 8px;
+
+
+    padding: 32px;
+    margin-bottom: 32px;
+    margin-top: 64px;
+}
+
+
+#corpo h3{
+    margin: 0;
+}
+
+#corpo p{
+    margin:8px 0;
+    color: #777;
+}
+
+
+main{
+    margin: 32px;
+
+}
+
+
+
+button{
+    color:red;
+
+    border: none;
+
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+
+    background: none;
+
+    cursor: pointer;
+
+    outline: none;
+
+    float: left;
+
+}
+
+button:hover{
+    text-decoration: underline;
+ 
+}
+
+.fat{
+    color: white;
+    background:grey;
+    text-decoration: none;
+
+    padding: 16px;
+    border-radius: 6px;
+    border: 0;
+}
+
+.fat:hover{
+    background-color: red;
+    text-decoration: none;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    
+    background-color: rgb(248, 229, 229);
+    box-shadow: 0 4px 16px -8px rgba(1, 1, 1, 0,1);
+
+    padding: 64px;
+
+    position: absolute;
+
+    margin-top: 64px; 
+
+    width: 100%;
+}
+
+#developed{
+    text-align: center;
+    display: flex;
+    margin-top: 64px;
+}
+
+
+
+
